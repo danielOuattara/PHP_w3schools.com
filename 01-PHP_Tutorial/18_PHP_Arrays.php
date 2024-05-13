@@ -10,12 +10,12 @@ PHP Tutorial: https://www.w3schools.com/php/
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHP Arrray</title>
+  <title>PHP Array</title>
 </head>
 
 <body>
 
-  <h1>PHP Arrray</h1>
+  <h1>PHP Array</h1>
 
   <!-- PHP Arrays
 ================
@@ -47,6 +47,7 @@ of elements in an array: -->
   echo  "cars count = " . count($cars) . "<br/>";
 
   echo  "cars count = " . sizeof($cars) . "<br/>";
+
   ?>
 
 
