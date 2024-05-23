@@ -26,15 +26,15 @@ In PHP, a variable starts with the '$' sign, followed by the name of
 the variable:                                                    -->
 
   <?php
-  $greating1 = "Hello World !";
-  $greating2 = 'Hello World Again!'; // single quotes: OK 
+  $greeting1 = "Hello World !";
+  $greeting2 = 'Hello World Again!'; // single quotes: OK 
   $salary = 234600;
   $x = 10.5;
   $possibility = true;
   ?>
 
   <!-- After the execution of the statements above:
-> the variable '$text' will hold the value 'Hello world!',
+> the variable '$greeting' will hold the value 'Hello world!',
 > the variable '$salary ' will hold the value '234600',
 > the variable '$x' will hold the value '10.5'.
 
@@ -52,7 +52,7 @@ PHP Variables
 ===============
 
 A variable can have a short name (like 'x' and 'y') or a more descriptive
-name ('age', 'carname', 'total_volume').
+name ('age', 'car_name', 'total_volume').
 
 
 Rules: In PHP, variable:
@@ -76,8 +76,8 @@ The PHP 'echo' statement is often used to output data to the screen.
 The following example will show how to output text and a variable:         -->
 
   <?php
-  echo "$greating1<br/>";
-  echo "$greating2<br/>";
+  echo "$greeting1<br/>";
+  echo "$greeting2<br/>";
 
   $txt = "W3Schools.com";
   echo "I love $txt!<br/>";
@@ -93,8 +93,8 @@ The following example will show how to output text and a variable:         -->
   $x = 5;
   $y = 4;
   echo " x + y = ", $x + $y;
-  // how to handle space between lines in php ?
 
+  // how to handle space between lines in php ?
   echo " x * y = ",  $x * $y;
 
   ?>
@@ -205,7 +205,7 @@ before the variables (inside the function):    -->
   ?>
 
 
-<!-- PHP also stores all global variables in an array 
+  <!-- PHP also stores all global variables in an array 
 called '$GLOBALS[index]'.
 The 'index' holds the name of the variable. This array 
 is also accessible from within functions and can be used 

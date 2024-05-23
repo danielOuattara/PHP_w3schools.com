@@ -50,7 +50,7 @@ a built-in PHP function "echo" to output the text "Hello World!" on a web page:
   ?>
   <pre>
 
-Note: PHP statements end necesseraly with a semicolon (;).
+Note: PHP statements end necessarily with a semicolon (;).
 -----
 
 
